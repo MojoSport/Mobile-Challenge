@@ -1,0 +1,105 @@
+{
+  "activities": [
+    {
+      "id": 110,
+      "order": 0,
+      "instructorId": 1,
+      "materialId": 103,
+      "durationSeconds": 45
+    },
+    {
+      "id": 111,
+      "order": 1,
+      "instructorId": 96,
+      "materialId": 39,
+      "durationSeconds": 30
+    },
+    {
+      "id": 112,
+      "order": 1,
+      "instructorId": 1,
+      "materialId": 115,
+      "durationSeconds": 30
+    },
+    {
+      "id": 113,
+      "order": 2,
+      "instructorId": 1,
+      "materialId": 101,
+      "durationSeconds": 90
+    },
+    {
+      "id": 114,
+      "order": 3,
+      "instructorId": 96,
+      "materialId": 38,
+      "durationSeconds": 30
+    },
+    {
+      "id": 115,
+      "order": 3,
+      "instructorId": 1,
+      "materialId": 128,
+      "durationSeconds": 30
+    },
+    {
+      "id": 116,
+      "order": 4,
+      "instructorId": 96,
+      "materialId": 101,
+      "durationSeconds": 45
+    },
+    {
+      "id": 117,
+      "order": 5,
+      "instructorId": 96,
+      "materialId": 105,
+      "durationSeconds": 30
+    }
+  ],
+  "materials": [
+    {
+      "id": 128,
+      "name": "Robocops"
+    },
+    {
+      "id": 103,
+      "name": "Stretch"
+    },
+    {
+      "id": 105,
+      "name": "Kicks"
+    },
+    {
+      "id": 115,
+      "name": "Flying Changes",
+      
+    },
+    {
+      "id": 39,
+      "name": "Follow The Ball",
+      
+    },
+    {
+      "id": 101,
+      "name": "Water Time"
+    },
+    {
+      "id": 38,
+      "name": "Tag Me",
+      
+    }
+  ],
+  "instructors": [
+    {
+      "givenName": "Jackie",
+      "id": 1,
+      "familyName": "Robinson",
+    },
+    {
+      "givenName": "Babe",
+      "id": 96,
+      "familyName": "Ruth",
+    }
+  ]
+}
