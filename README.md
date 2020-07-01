@@ -29,7 +29,7 @@ Build an app that displays and functions as a sports activity timer. The activit
 1. The UI should display the next activity(ies) (eg. name, instructor) that will be up next.
 1. The activity timer can be paused.
 2. The activity timer can be unpaused.
-3. The activity timer can be stopped. Stopped the timer advances it to the next activity and re-starts the timer. 
+3. The activity timer can be stopped. Stopping the timer should advance it to the next activity(ies) and re-start the timer. 
 1. When the activity timer reaches 0, advance to the next activity and start the countdown timer for that activity.
 1. Stopping the current activity advances the timer to the next activity and re-starts the countdown timer.
 
