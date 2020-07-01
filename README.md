@@ -24,9 +24,9 @@ Build an app that displays and functions as a sports activity timer. The activit
 
 ### Basic Requirements
 
-1. The UI should display the time left for the current activity that is counting down
-1. The UI should display the current activities (eg. name, instructor) that are counting down
-1. The UI should display the next activities (eg. name, instructor) to be timed
+1. The UI should display the time left for the current activity(ies) counting down.
+1. The UI should display the current activity(ies) (eg. name, instructor) counting down.
+1. The UI should display the next activity(ies) (eg. name, instructor) that will be up next.
 1. The activity timer can be paused.
 2. The activity timer can be unpaused.
 3. The activity timer can be stopped. Stopped the timer advances it to the next activity and re-starts the timer. 
