@@ -17,11 +17,11 @@ Please **clone** or **download** this repository and commit all your changes to 
 4. Commit and Push your code to your repository.
 5. Send us an email with a link to your respository URL.
 
-##Technical spec
+## Technical spec
 
 Build an app that displays and functions as a sports activity timer. The activity timer displays the current activities being performed, the time left on those activities and what activities are next.
 
-###Basic Requirements
+### Basic Requirements
 
 1. The UI should display the time left for the current activity that is counting down
 1. The UI should display the current activities (eg. name, instructor) that are counting down
@@ -39,7 +39,7 @@ Mock json data can be found here ([mock.json](mock.json)) to populate the list o
 * The mock data includes an array of **activities**. 
 * Each activity should display a countdown timer based on its **durationSeconds**. 
 * The activity **order** determines the order activities should be performed. Activities that have the same **order** are to be performed at the same time.
-	* If multiple activities have an order of 2, for example, the timer should countdown for the first activity, then the second activity, etc until moving on to order 3 activit(es).
+	* If multiple activities have an order of 2, for example, the timer should countdown for the first activity, then the second activity, etc until moving on to order 3 activit(es). This is the equivalent of running multiple activities at the same time and then having players switch groups.
 
 ## UI
 
