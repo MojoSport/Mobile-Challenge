@@ -17,7 +17,8 @@ Please **clone** or **download** this repository and commit all your changes to 
 4. Commit and Push your code to your repository.
 5. Send us an email with a link to your respository URL.
 
-## Technical spec
+# Technical spec
+_____________
 
 Build an app that displays and functions as a sports activity timer. The activity timer displays the current activities being performed, the time left on those activities and what activities are next.
 
