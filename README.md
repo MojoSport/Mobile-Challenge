@@ -20,7 +20,7 @@ Please **clone** or **download** this repository and commit all your changes to 
 # Technical spec
 _____________
 
-Build an app that displays and functions as a sports activity timer. The activity timer displays the current activities being performed, the time left on those activities and what activities are next.
+Build an app that displays and functions as a sports activity timer. The activity timer will be used by a sports coach to manage their practice so they know what activity (drill) is running and when the next activity(ies) start. The activity timer displays the current activities being performed, the time left on those activities and what activities are next. 
 
 ### Basic Requirements
 
@@ -30,8 +30,7 @@ Build an app that displays and functions as a sports activity timer. The activit
 1. The activity timer can be paused.
 2. The activity timer can be unpaused.
 3. The activity timer can be stopped. Stopping the timer should advance it to the next activity(ies) and re-start the timer. 
-1. When the activity timer reaches 0, advance to the next activity and start the countdown timer for that activity.
-1. Stopping the current activity advances the timer to the next activity and re-starts the countdown timer.
+1. When the activity timer reaches 0, advance to the next activity(ies) and start the countdown timer for the next activity(ies).
 
 ## Data
 
