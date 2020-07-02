@@ -38,8 +38,12 @@ Mock json data can be found here ([mock.json](mock.json)) to populate the list o
 
 * The mock data includes an array of **activities**. 
 * Each activity should display a countdown timer based on its **durationSeconds**. 
-* The activity **order** determines the order activities should be performed. Activities that have the same **order** are to be performed at the same time.
-	* If multiple activities have an order of 2, for example, the timer should countdown for the first activity, then the second activity, etc until moving on to order 3 activit(es). This is the equivalent of running multiple activities at the same time and then having players switch groups.
+* The activity **order** determines the order activities should be performed. 
+* Activities that have the same **order** (and **durationSeconds**) are to be performed at the same time.
+	*  This happens when a subset of players at practice perform one activity while another subset perform another activity simultaneously. At the end of the **durationSeconds**, the players switch activities before moving on to the next **order** in the **activities** array.
+	*  For example, if multiple activities have an **order** of **2**, the timer would count down for **durationSeconds**, the players would switch activities and the timer would count down for **durationSeconds** again.
+
+	
 
 ## UI
 
