@@ -22,7 +22,7 @@ _____________
 
 Build an app that displays and functions as a sports activity timer. The activity timer will be used by a sports coach to manage their practice so they know what activity (drill) is running and when the next activity(ies) start. The activity timer displays the current activities being performed, the time left on those activities and what activities are next. 
 
-[Example UI](#ui)
+[Example UI](#example-ui)
 
 ### Basic Requirements
 
