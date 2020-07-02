@@ -22,6 +22,8 @@ _____________
 
 Build an app that displays and functions as a sports activity timer. The activity timer will be used by a sports coach to manage their practice so they know what activity (drill) is running and when the next activity(ies) start. The activity timer displays the current activities being performed, the time left on those activities and what activities are next. 
 
+[Example UI](#ui)
+
 ### Basic Requirements
 
 1. The UI should display the time left for the current activity(ies) counting down.
@@ -37,15 +39,15 @@ Build an app that displays and functions as a sports activity timer. The activit
 Mock json data can be found here ([mock.json](mock.json)) to populate the list of activites.
 
 * The mock data includes an array of **activities**. 
-* Each activity should display a countdown timer based on its **durationSeconds**. 
+* Each activity **durationSeconds** determines the length of the activity in seconds. 
 * The activity **order** determines the order activities should be performed. 
-* Activities that have the same **order** (and **durationSeconds**) are to be performed at the same time.
+* Activities that have the same **order** are to be performed at the same time.
 	*  This happens when a subset of players at practice perform one activity while another subset perform another activity simultaneously. At the end of the **durationSeconds**, the players switch activities before moving on to the next **order** in the **activities** array.
-	*  For example, if multiple activities have an **order** of **2**, the timer would count down for **durationSeconds**, the players would switch activities and the timer would count down for **durationSeconds** again.
+	*  For example, if multiple activities have an **order** of **2**, the timer would count down for **durationSeconds**, the players would switch activities and the timer would count down for **durationSeconds**, etc before moving to the next activity **order**.
 
 	
 
-## UI
+## Example UI
 
 Here are some example mockups of each potential state. Feel free to use them as a guide. 
 
