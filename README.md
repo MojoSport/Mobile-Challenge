@@ -1,4 +1,4 @@
-## MOJO's Quick Android Coding Challenge
+## MOJO's Mobile Coding Challenge
 
 Hi there! Here is a coding exercise to help us assess your technical skills. Please plan to spend no more than **2 hours** on this. We understand we may not be the only company asking for an exercise from you and want to be respectful of your time.
 
@@ -13,7 +13,7 @@ Please **clone** or **download** this repository and commit all your changes to 
 
 1. Clone or download this repository.
 2. Create a *source* directory for your code.
-3. In the *source* directory, please create an Android app that accomplishes the technical spec below.
+3. In the *source* directory, please create an iOS/Android app that accomplishes the technical spec below.
 4. Commit and Push your code to your repository.
 5. Send us an email with a link to your respository URL.
 
